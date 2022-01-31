@@ -1,5 +1,4 @@
-# Ben Baessler - Developer
-## Portfolio Website
+# Ben Baessler Portfolio Website
 
 This is my professional website that gives potential collaborators a chance to find out who I am and what my skills and goals are.
 
