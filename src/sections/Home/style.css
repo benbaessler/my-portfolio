@@ -1,0 +1,58 @@
+.introContainer {
+  margin-top: clamp(150px, 17vh, 700px);
+  margin-bottom: clamp(100px, 10vw, 500px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introText {
+  width: 32vw;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.introText h1 {
+  margin-bottom: 30px;
+}
+
+#description {
+  margin-bottom: 20px;
+}
+
+.introText b {
+  font-weight: 600;
+}
+
+#myImage {
+  margin-left: 10vw;
+  width: 35vw;
+  max-width: 550px;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .introContainer {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .introText {
+    text-align: center;
+    width: 70vw;
+  }
+
+  .introText h1 {
+    font-size: clamp(25px, 7.5vw, 150px);
+  }
+
+  #myImage {
+    margin-top: 15vw;
+    margin-left: 0;
+    width: 50vw;
+  }
+
+}
