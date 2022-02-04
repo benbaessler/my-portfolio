@@ -13,7 +13,6 @@ export default function Topbar() {
     <div className="topBar">
       <OverlayTrigger
         placement="bottom"
-        delay={{ show: 150, hide: 300 }}
         overlay={renderContactTip}
       >
         <div className="contactContainer">

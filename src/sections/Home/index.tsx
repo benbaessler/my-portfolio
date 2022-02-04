@@ -1,7 +1,4 @@
 import './style.css'
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-
-import renderContactTip from '../../components/ContactTip'
 
 import myImage from '../../assets/images/me.png'
 
