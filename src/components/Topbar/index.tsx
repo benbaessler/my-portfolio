@@ -1,4 +1,7 @@
 import './style.css'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+
+import renderContactTip from '../ContactTip'
 
 import { CgArrowBottomLeft } from 'react-icons/cg'
 import twitterIcon from '../../assets/icons/twitter.png'
@@ -8,16 +11,22 @@ import gitHubIcon from '../../assets/icons/github.png'
 export default function Topbar() {
   return (
     <div className="topBar">
-      <div className="contactContainer">
-        <a href="mailto:hello@benbaessler.com">
-          <div id="emailContact">
-            Contact me
-            <div id="emailIconContainer">
-            <CgArrowBottomLeft size="25px"/>
+      <OverlayTrigger
+        placement="bottom"
+        delay={{ show: 150, hide: 300 }}
+        overlay={renderContactTip}
+      >
+        <div className="contactContainer">
+          <a href="mailto:hello@benbaessler.com">
+            <div id="emailContact">
+              Contact me
+              <div id="emailIconContainer">
+              <CgArrowBottomLeft size="25px"/>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+      </OverlayTrigger>
       <div className="socialMediaContainer">
         <a href="https://twitter.com/ohCurles" target="_blank" rel="noopener noreferrer">
           <img src={twitterIcon}/>

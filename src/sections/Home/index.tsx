@@ -1,4 +1,7 @@
 import './style.css'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+
+import renderContactTip from '../../components/ContactTip'
 
 import myImage from '../../assets/images/me.png'
 
@@ -9,9 +12,9 @@ export default function Home() {
         <div className="introText">
           <h1>Hey, I'm Ben.</h1>
           <p id="description">I am a 18-year-old developer based in London. Aspring to become an entrepreneur in blockchain by creating something that will shape the future of technology. My coding skills 
-          include <b>Solidity</b>, <b>React</b>, <b>Python</b> and <b>Flutter</b>.
+          include <b>Solidity</b>, <b>React</b>, <b>Python</b> and <b>JavaScript</b>.
           </p>
-          <p>Interested in working with me? <a href="mailto:hello@benbaessler.com">Let's get in touch!</a> 😁</p>
+          <p>Interested in working with me? Let's get in touch! 😁</p>
         </div>
         <img src={myImage} id="myImage"/>
       </div>
