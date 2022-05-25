@@ -1,0 +1,12 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.aboutContainer h2 {
+  margin-bottom: 90px;
+}
