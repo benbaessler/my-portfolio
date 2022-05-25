@@ -1,0 +1,16 @@
+.soonSection {
+  justify-content: center;
+}
+
+.soonContainer {
+  display: flex;
+  align-items: center;
+  margin-top: clamp(100px, 15vh, 600px);
+  margin-bottom: clamp(100px, 15vw, 600px);
+}
+
+@media only screen and (max-width: 900px) {
+  .soonSection {
+    padding-top: clamp(1rem, 15vw, 20rem);
+  }
+}

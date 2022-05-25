@@ -1,12 +1,53 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 70%;
-  text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 8vh;
 }
 
 .aboutContainer h2 {
-  margin-bottom: 90px;
+  margin-bottom: 13vh;
+}
+
+.aboutContentContainer {
+  display: flex;
+}
+
+#aboutContentSection {
+  width: 55%;
+  padding-right: 2vw;
+}
+
+#aboutContentSection p {
+  margin-bottom: 20px;
+}
+
+#aboutSkillsSection {
+  min-width: 180px;
+  width: 40%;
+  max-width: 500px;
+  padding-left: 6vw;
+}
+
+#aboutSkillsSection p {
+  margin-left: 2vw;
+  font-weight: 500;
+}
+
+.aboutSkillsIcons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgWrapper {
+  height: clamp(35px, 4vw, 80px);
+  width: clamp(35px, 4vw, 80px);
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgWrapper img {
+  height: clamp(50px, 4vw, 80px);
 }
