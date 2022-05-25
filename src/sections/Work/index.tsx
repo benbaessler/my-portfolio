@@ -8,6 +8,7 @@ import LendFiSC1 from '../../assets/images/showcases/lendfi/1.png'
 import LendFiSC2 from '../../assets/images/showcases/lendfi/2.png'
 import LendFiSC3 from '../../assets/images/showcases/lendfi/3.png'
 import LendFiSC4 from '../../assets/images/showcases/lendfi/4.png'
+import BWBImage from '../../assets/images/showcases/bwb/1.png'
 
 export default function Work() {
 
@@ -54,6 +55,30 @@ export default function Work() {
           </p>
         </div>
         <ShowcaseSlider images={[LendFiSC1, LendFiSC2, LendFiSC3, LendFiSC4]}/>
+      </div>
+      <div className="projectContainer">
+        <div className="projectContentContainer">
+          <a 
+            href="https://github.com/benbaessler/bridge-whale-bot"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><div className="projectTitleContainer">
+            <img src={GitHubIcon}/>
+            <h3>Gitcoin Bounty: Bridge Whale Bot</h3>
+          </div></a>
+          <p>
+            This is a bot for monitoring a Twitter account (@RenAssetsBot), 
+            filtering new tweets for keywords and posting them to Discord using Webhooks.
+          </p>
+          <p>
+            After applying for the bounty, I planned and created the bot in <b>Python</b>.
+            I worked with the Discord API and Twitter SDK (Tweepy).
+          </p>
+          <p style={{ margin: 0 }}>
+            Once the bot was finalized, I packaged the app in a <b>Docker</b> Container.
+          </p>
+        </div>
+        <ShowcaseSlider images={[BWBImage]}/>
       </div>
     </div>
   </div>

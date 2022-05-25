@@ -24,6 +24,7 @@
 .projectContainer {
   display: flex;
   align-items: center;
+  margin-bottom: 13vh;
 }
 
 .projectContentContainer {
