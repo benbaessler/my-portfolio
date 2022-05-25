@@ -1,18 +1,18 @@
 import './style.css'
+
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
+
 import SolidityIcon from '../../assets/icons/skills/solidity.png'
 import ReactIcon from '../../assets/icons/skills/reactjs.png'
 import PythonIcon from '../../assets/icons/skills/python.png'
 import JavaScriptIcon from '../../assets/icons/skills/javascript.png'
-import HTMLIcon from '../../assets/icons/skills/html.png'
-import CSSIcon from '../../assets/icons/skills/css.png'
 import HardhatIcon from '../../assets/icons/skills/hardhat.png'
-import EthersIcon from '../../assets/icons/skills/ethers.png'
 import EthereumIcon from '../../assets/icons/skills/ethereum.png'
 
 export default function About() {
+
   return <div className="section">
     <div className="aboutContainer">
-
       <h2>About Me</h2>
 
       <div className="aboutContentContainer">
@@ -31,13 +31,26 @@ export default function About() {
         </div>
 
         <div id="aboutSkillsSection">
+          <p>My skills include:</p>
           <div className="aboutSkillsIcons">
-            <div className="imgWrapper"><img src={SolidityIcon}/></div>
-            <div className="imgWrapper"><img src={ReactIcon}/></div>
-            <div className="imgWrapper"><img src={PythonIcon}/></div>
-            <div className="imgWrapper"><img src={EthereumIcon}/></div>
-            <div className="imgWrapper"><img src={JavaScriptIcon}/></div>
-            <div className="imgWrapper"><img src={HardhatIcon}/></div>
+            <OverlayTrigger placement="top" overlay={<Tooltip>Solidity</Tooltip>}>
+              <div className="imgWrapper"><img src={SolidityIcon}/></div>
+            </OverlayTrigger>
+            <OverlayTrigger placement="top" overlay={<Tooltip>React</Tooltip>}>
+              <div className="imgWrapper"><img src={ReactIcon}/></div>
+            </OverlayTrigger>
+            <OverlayTrigger placement="top" overlay={<Tooltip>Python</Tooltip>}>
+              <div className="imgWrapper"><img src={PythonIcon}/></div>
+            </OverlayTrigger>
+            <OverlayTrigger placement="top" overlay={<Tooltip>Ethereum (EVM)</Tooltip>}>
+              <div className="imgWrapper"><img src={EthereumIcon}/></div>
+            </OverlayTrigger>
+            <OverlayTrigger placement="top" overlay={<Tooltip>JavaScript</Tooltip>}>
+              <div className="imgWrapper"><img src={JavaScriptIcon}/></div>
+            </OverlayTrigger>
+            <OverlayTrigger placement="top" overlay={<Tooltip>Hardhat</Tooltip>}>
+              <div className="imgWrapper"><img src={HardhatIcon}/></div>
+            </OverlayTrigger>
           </div>
         </div>
 
