@@ -36,6 +36,12 @@
   opacity: .8;
 }
 
-#showcaseImage {
-  height: 300px;
+.showcaseSliderContainer {
+  display: flex;
+  align-items: center;
+}
+
+.showcaseSliderContainer img {
+  animation: fade .2s;
+  width: clamp(300px, 37vw, 700px);
 }

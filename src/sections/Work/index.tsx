@@ -1,9 +1,34 @@
 import './style.css'
 
+import { useEffect, useState } from 'react'
+
 import GitHubIcon from '../../assets/icons/github-icon.png'
-import LendFiShowcase from '../../assets/images/lendfi-showcase.png'
+import ArrowIcon from '../../assets/icons/arrow.png'
+import LendFiSC1 from '../../assets/images/showcases/lendfi/1.png'
+import LendFiSC2 from '../../assets/images/showcases/lendfi/2.png'
+import LendFiSC3 from '../../assets/images/showcases/lendfi/3.png'
+import LendFiSC4 from '../../assets/images/showcases/lendfi/4.png'
 
 export default function Work() {
+
+  const ShowcaseSlider = ({ images }: { images: string[] }) => {
+    const [currentImage, setCurrentImage] = useState<string>(images[0])
+
+    useEffect(() => {
+      setTimeout(() => {
+        if (currentImage === images[images.length - 1]) {
+          setCurrentImage(images[0])
+        } else {
+          setCurrentImage(images[images.indexOf(currentImage) + 1])
+        }
+      }, 5000)
+    }, [currentImage])
+
+    return <div className="showcaseSliderContainer">
+      <img src={currentImage}/>
+    </div>
+  }
+
   return <div className="section">
     <div className="workContainer">
       <h2>My Work</h2>
@@ -28,7 +53,7 @@ export default function Work() {
             I built the front-end application using <b>React</b>, <b>TypeScript</b> and <b>Ethers</b>. For styling I used <b>Bootstrap</b> and <b>CSS</b>.
           </p>
         </div>
-        <img id="showcaseImage" src={LendFiShowcase}/>
+        <ShowcaseSlider images={[LendFiSC1, LendFiSC2, LendFiSC3, LendFiSC4]}/>
       </div>
     </div>
   </div>
