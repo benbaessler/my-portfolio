@@ -18,6 +18,13 @@ h1 {
 
 h2 {
   font-size: clamp(20px, 3vw, 60px);
+  margin-bottom: 13vh;
+}
+
+h3 {
+  font-size: clamp(15px, 1.8vw, 45px);
+  font-weight: 400;
+  
 }
 
 p {
