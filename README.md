@@ -1,5 +1,6 @@
 # Ben Baessler Portfolio Website
 
-This is my professional website that gives potential collaborators a chance to find out who I am and what my skills and goals are.
+This is my professional portfolio website for showcasing myself and my work.
+(If you are interested in working with me, feel free to get in touch! 😁)
 
 Check out the live version [here](https://benbaessler.com)!
