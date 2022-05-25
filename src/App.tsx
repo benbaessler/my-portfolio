@@ -13,7 +13,7 @@ function App() {
     <Home/>
     <About/>
     <Work/>
-    {/* <Soon/> */}
+    <Soon/>
   </div>
 
 }
