@@ -6,6 +6,7 @@
 
 .aboutContentContainer {
   display: flex;
+  align-items: center;
 }
 
 #aboutContentSection {
@@ -32,6 +33,7 @@
 .aboutSkillsIcons {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .imgWrapper {

@@ -5,11 +5,46 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 import SolidityIcon from '../../assets/icons/skills/solidity.png'
 import ReactIcon from '../../assets/icons/skills/reactjs.png'
 import PythonIcon from '../../assets/icons/skills/python.png'
-import JavaScriptIcon from '../../assets/icons/skills/javascript.png'
+import TypeScriptIcon from '../../assets/icons/skills/typescript.svg'
 import HardhatIcon from '../../assets/icons/skills/hardhat.png'
 import EthereumIcon from '../../assets/icons/skills/ethereum.png'
+import EthersIcon from '../../assets/icons/skills/ethers.png'
+import HTMLIcon from '../../assets/icons/skills/html.png'
+import GitIcon from '../../assets/icons/skills/git.png'
 
 export default function About() {
+
+  const SkillsShowcase = () => {
+    return <div id="aboutSkillsSection">
+      <p>My skills include:</p>
+      <div className="aboutSkillsIcons">
+        <OverlayTrigger placement="top" overlay={<Tooltip>Solidity</Tooltip>}>
+          <div className="imgWrapper"><img src={SolidityIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>React</Tooltip>}>
+          <div className="imgWrapper"><img src={ReactIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>Python</Tooltip>}>
+          <div className="imgWrapper"><img src={PythonIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>Ethereum (EVM)</Tooltip>}>
+          <div className="imgWrapper"><img src={EthereumIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>TypeScript (JS)</Tooltip>}>
+          <div className="imgWrapper"><img src={TypeScriptIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>Hardhat</Tooltip>}>
+          <div className="imgWrapper"><img src={HardhatIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>ethers.js (web3.js)</Tooltip>}>
+          <div className="imgWrapper"><img src={EthersIcon}/></div>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={<Tooltip>HTML & CSS</Tooltip>}>
+          <div className="imgWrapper"><img src={HTMLIcon}/></div>
+        </OverlayTrigger>
+      </div>
+    </div>
+  }
 
   return <div className="section">
     <div className="aboutContainer">
@@ -30,29 +65,7 @@ export default function About() {
           </p>
         </div>
 
-        <div id="aboutSkillsSection">
-          <p>My skills include:</p>
-          <div className="aboutSkillsIcons">
-            <OverlayTrigger placement="top" overlay={<Tooltip>Solidity</Tooltip>}>
-              <div className="imgWrapper"><img src={SolidityIcon}/></div>
-            </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>React</Tooltip>}>
-              <div className="imgWrapper"><img src={ReactIcon}/></div>
-            </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>Python</Tooltip>}>
-              <div className="imgWrapper"><img src={PythonIcon}/></div>
-            </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>Ethereum (EVM)</Tooltip>}>
-              <div className="imgWrapper"><img src={EthereumIcon}/></div>
-            </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>JavaScript</Tooltip>}>
-              <div className="imgWrapper"><img src={JavaScriptIcon}/></div>
-            </OverlayTrigger>
-            <OverlayTrigger placement="top" overlay={<Tooltip>Hardhat</Tooltip>}>
-              <div className="imgWrapper"><img src={HardhatIcon}/></div>
-            </OverlayTrigger>
-          </div>
-        </div>
+        <SkillsShowcase/>
 
       </div>
     </div>
