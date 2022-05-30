@@ -7,7 +7,6 @@
 
 .section {
   width: 100%;
-  max-height: 1300px;
   display: flex;
   padding: 7vh 22vh;
 }
@@ -18,7 +17,7 @@ h1 {
 
 h2 {
   font-size: clamp(20px, 3vw, 60px);
-  margin-bottom: 13vh;
+  margin-bottom: 100px;
 }
 
 h3 {
@@ -31,6 +30,11 @@ p {
   color: #a6a6a6;
   font-size: clamp(15px, 1.3vw, 1.3rem);
   line-height: clamp(28px, 2.5vw, 1.7rem);
+}
+
+b {
+  font-weight: 500;
+  opacity: .8;
 }
 
 a {

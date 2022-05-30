@@ -1,6 +1,7 @@
 .introContainer {
   margin-top: clamp(150px, 17vh, 700px);
   margin-bottom: clamp(100px, 10vw, 500px);
+  max-height: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;

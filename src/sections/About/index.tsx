@@ -54,7 +54,7 @@ export default function About() {
 
         <div id="aboutContentSection">
           <p>
-            I am 18 years old and currently based in London, UK.
+            I am 18 years old and based in London, UK.
           </p>
           <p>
             Self-taught developer since 2019 and specialized in blockchain development since 2021.
