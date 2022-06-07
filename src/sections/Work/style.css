@@ -22,7 +22,7 @@
 }
 
 .experienceContainer {
-  margin-bottom: 13vh;
+  margin-bottom: 14vh;
   width: 70%;
 }
 
@@ -30,7 +30,7 @@
   flex-wrap: wrap;
   display: flex;
   align-items: center;
-  margin-bottom: 13vh;
+  margin-bottom: 14vh;
 }
 
 .projectContentContainer {
@@ -67,4 +67,24 @@
 #jobDetails {
   font-size: 15px;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projectContainer {
+    flex-direction: column;
+  }
+
+  .projectContentContainer {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10vh;
+  }
+
+  .showcaseSliderContainer img {
+    width: 100%;
+  }
+
+  .experienceContainer {
+    width: 100%;
+  }
 }

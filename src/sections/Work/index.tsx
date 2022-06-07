@@ -33,8 +33,7 @@ export default function Work() {
       <h2>My Work</h2>
       <div className="experienceContainer">
         <div className="experienceTitleContainer">
-          <h3>Blockchain Software Developer</h3>
-          <span>at Nevam</span>
+          <h3>Blockchain Software Developer at Nevam</h3>
         </div>
         <p id="jobDetails">2021-2022, part-time, remote</p>
         <p>
@@ -86,11 +85,11 @@ export default function Work() {
             This is the Solidity smart contract for Nevam's upcoming NFT collection.
           </p>
           <p>
-            I planned out the architecture of the contract and wrote it using Solidity and Hardhat.
+            I planned out the architecture of the contract and wrote it using <b>Solidity</b> and <b>Hardhat</b>. Using <b>Chai</b>, I wrote extensive tests. Performed a manual audit on the contract using tools like <b>Slither</b> and <b>Mythril</b>.
 
           </p>
           <p style={{ margin: 0 }}>
-            Once the bot was finalized, I packaged the app in a <b>Docker</b> Container.
+            The smart contract is designed for deployment to the <b>Polygon</b> Mainnet.
           </p>
         </div>
       </div>

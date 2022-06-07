@@ -49,3 +49,27 @@
 .imgWrapper img {
   height: clamp(50px, 4vw, 80px);
 }
+
+@media only screen and (max-width: 1000px) {
+  .aboutContentContainer {
+    flex-direction: column;
+  }
+
+  #aboutContentSection {
+    width: 100%;
+    /* text-align: center; */
+    padding: 0;
+    margin-bottom: 10vh;
+  }
+
+  #aboutSkillsSection {
+    padding: 0;
+    width: 100%;
+    max-width: 1000px; 
+  }
+
+  #aboutSkillsSection p {
+    padding: 0;
+    margin-left: 0;
+  }
+}
