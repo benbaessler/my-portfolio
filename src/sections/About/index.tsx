@@ -1,50 +1,7 @@
 import './style.css'
-
-import { OverlayTrigger, Tooltip } from 'react-bootstrap'
-
-import SolidityIcon from '../../assets/icons/skills/solidity.png'
-import ReactIcon from '../../assets/icons/skills/reactjs.png'
-import PythonIcon from '../../assets/icons/skills/python.png'
-import TypeScriptIcon from '../../assets/icons/skills/typescript.svg'
-import HardhatIcon from '../../assets/icons/skills/hardhat.png'
-import EthereumIcon from '../../assets/icons/skills/ethereum.png'
-import EthersIcon from '../../assets/icons/skills/ethers.png'
-import HTMLIcon from '../../assets/icons/skills/html.png'
-import GitIcon from '../../assets/icons/skills/git.png'
+import MyImage from '../../assets/images/me.png'
 
 export default function About() {
-
-  const SkillsShowcase = () => {
-    return <div id="aboutSkillsSection">
-      <p>My skills include:</p>
-      <div className="aboutSkillsIcons">
-        <OverlayTrigger placement="top" overlay={<Tooltip>Solidity</Tooltip>}>
-          <div className="imgWrapper"><img src={SolidityIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>React</Tooltip>}>
-          <div className="imgWrapper"><img src={ReactIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>Python</Tooltip>}>
-          <div className="imgWrapper"><img src={PythonIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>Ethereum (EVM)</Tooltip>}>
-          <div className="imgWrapper"><img src={EthereumIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>TypeScript (JS)</Tooltip>}>
-          <div className="imgWrapper"><img src={TypeScriptIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>Hardhat</Tooltip>}>
-          <div className="imgWrapper"><img src={HardhatIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>ethers.js (web3.js)</Tooltip>}>
-          <div className="imgWrapper"><img src={EthersIcon}/></div>
-        </OverlayTrigger>
-        <OverlayTrigger placement="top" overlay={<Tooltip>HTML & CSS</Tooltip>}>
-          <div className="imgWrapper"><img src={HTMLIcon}/></div>
-        </OverlayTrigger>
-      </div>
-    </div>
-  }
 
   return <div className="section">
     <div className="aboutContainer">
@@ -54,19 +11,32 @@ export default function About() {
 
         <div id="aboutContentSection">
           <p>
-            I am 18 years old and based in London, UK.
+            I am a German-American 18-year-old developer based in London, UK. My journey as a software
+            developer started back in 2019 when I took an online <span>Python</span> course. Since then, coding has 
+            become my number one passion.
           </p>
           <p>
-            Self-taught developer since 2019 and specialized in blockchain development since 2021.
+            During COVID-19, I spent my time exploring different developer 'niches' in order to find something that I wanted to specialize in.
+            I started teaching myself various programming languages including <span>Flutter (Dart)</span>, <span>HTML & CSS</span>, <span>Swift</span> and <span>JavaScript</span>.
           </p>
           <p>
-            My goal is to leave an impact in the Web 3 space by building solutions that will help 
-            blockchain technology reach global adoption.
+            When I learned about blockchain in early 2021, it was clear to me that this is what I want to work on. 
+            I started actively participating in the <span>crypto</span> / <span>web 3</span> community and learning about the space.
+          </p>
+          <p>
+            In August 2021, after teaching myself <span>Solidity</span> and <span>React</span> in order to build <span>dApps</span> / <span>smart contracts</span>, I landed my very first job as a part-time blockchain developer for a web 3 start-up.
+          </p>
+          <p>
+            <b>I am currently open for work as a developer.</b>
           </p>
         </div>
 
-        <SkillsShowcase/>
-
+        <div className="showcaseContainer">
+          <img src={MyImage}/>
+          <div className="skillsContainer">~
+          </div>
+        </div>
+        
       </div>
     </div>
   </div>
