@@ -27,10 +27,6 @@
   flex-direction: column;
 }
 
-.showcaseContainer p {
-  color: #00ddff;
-}
-
 .aboutImageContainer {
   width: 100%;
   display: flex;
@@ -44,12 +40,17 @@
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .aboutContentContainer {
     display: block;
   }
 
+  .showcaseContainer {
+    flex-direction: column-reverse;
+  }
+
   .aboutImageContainer {
+    margin-top: 50px;
     justify-content: center;
   }
 }
@@ -72,7 +73,7 @@
 
 ul.skillsList {
   display: grid;
-  font-size: 19px;
+  font-size: 17px;
   grid-template-columns: repeat(2, minmax(50px, 150px));
   padding-left: 16px;
 }

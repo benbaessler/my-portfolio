@@ -36,15 +36,17 @@ export default function About() {
           <div className="aboutImageContainer">
             <img src={MyImage}/>
           </div>
-          <p>My skills include:</p>
-          <ul className="skillsList">
-            <li>Solidity</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>Python</li>
-            <li>HTML & CSS</li>
-          </ul>
+          <div>
+            <p>My main technical skills are:</p>
+            <ul className="skillsList">
+              <li>Solidity</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Python</li>
+              <li>HTML & CSS</li>
+            </ul>
+          </div>
         </div>
         
       </div>
