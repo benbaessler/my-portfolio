@@ -123,7 +123,7 @@ const ProjLendFi = () => {
 }
 
 export default function Work() {
-  return <div className="section">
+  return <div className="section" style={{ width: 'auto' }}>
     <div className="workContainer">
       <h2>My Work</h2>
       <div className='showcaseListContainer'>
