@@ -2,11 +2,69 @@ import './style.css'
 
 import { useEffect, useState } from 'react'
 
-import GitHubIcon from '../../assets/icons/github-icon.png'
-import LendFiSC1 from '../../assets/images/showcases/lendfi/1.png'
-import LendFiSC2 from '../../assets/images/showcases/lendfi/2.png'
-import LendFiSC3 from '../../assets/images/showcases/lendfi/3.png'
-import LendFiSC4 from '../../assets/images/showcases/lendfi/4.png'
+import GitHubIcon from '../../assets/icons/media/github.png'
+import LinkIcon from '../../assets/icons/link.png'
+
+const JobNevam = () => {
+  return <div className="expContainer">
+    <h3 id="showcaseTitle">Part-time Employment</h3>
+    <div className="experienceTitleContainer">
+      <h3>Blockchain Software Developer <span>@ Nevam</span></h3>
+    </div>
+    <p id="jobDetails">August 2021 - June 2022</p>
+    <p className="jobsum">
+      A part-time, remote position for a web3 start-up building a social media platform for NFT artists
+      to express themselves via their own created metaverses.
+    </p>
+    <p>
+      
+    </p>
+    <ul className="desc">
+      <li><p>
+        My responsibilies included working with a team of developers and designers to build a blockchain-based social media web app
+        using React, TypeScript, Bootstrap and Ethers.
+      </p></li>
+      <li><p>
+        Planning and writing the smart contract for an ERC-1155 NFT collection on Polygon
+        using Solidity, Chai, OpenZeppelin and Hardhat.
+      </p></li>
+      <li><p>
+        I learned how to work in an agile environment and use tools like Confluence, Jira and Bitbucket.
+      </p></li>
+    </ul>
+  </div>
+}
+
+const ProjBadger = () => {
+  return <div className="expContainer">
+    <h3 id="showcaseTitle">Freelance Project</h3>
+    <div className="experienceTitleContainer">
+      <h3 id="projTitle">Gitcoin Bounty: Bridge Whale Bot</h3>
+    </div>
+    <p>
+      This is a bot for monitoring a Twitter account (@RenAssetsBot), filtering new tweets for keywords and posting them to Discord using Webhooks.
+    </p>  
+    <p>
+      After applying for the bounty, I planned and created the bot in Python. I worked with the Discord API and Twitter SDK (Tweepy).
+    </p>  
+    <p>
+    Once the bot was finalized, I packaged the app in a Docker Container, submitted the project on Gitcoin and received a payout.
+    </p>
+    <div className="projLinkContainer">
+      <a
+        href="https://github.com/benbaessler/bridge-whale-bot"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><img src={GitHubIcon} id="githubIcon"/></a>
+      <a
+        href="https://gitcoin.co/iss~ue/Badger-Finance/gitcoin/18/100026127"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><img src={LinkIcon}/></a>
+    </div>
+
+  </div>  
+}
 
 export default function Work() {
 
@@ -31,26 +89,11 @@ export default function Work() {
   return <div className="section">
     <div className="workContainer">
       <h2>My Work</h2>
-      <div className="experienceContainer">
-        <div className="experienceTitleContainer">
-          <h3>Blockchain Software Developer at Nevam</h3>
-        </div>
-        <p id="jobDetails">2021-2022, part-time, remote</p>
-        <p>
-          Nevam is a startup building a social network for NFT artists to express themselves in their own created Metaverses.
-        </p>
-        <p>
-          My role included building the front-end website using <b>React</b>, <b>TypeScript</b>, <b>Bootstrap</b>, and <b>CSS</b> and interacting with smart contracts
-          and the blockchain with <b>Ethers</b>.
-        </p>
-        <p>
-          Planned and created ERC-1155 NFT smart contract with <b>Solidity</b> and <b>Hardhat</b> and wrote extensive tests for the contract using <b>Chai</b> for unit testing.
-        </p>
-        <p>
-          Experienced in a dev team environment, and able to work autonomously.
-        </p>
+      <div className='showcaseListContainer'>
+        <JobNevam/>
+        <ProjBadger/>
       </div>
-      <div className="projectContainer" style={{ alignItems: 'start' }}>
+      <div className="expContainer" style={{ alignItems: 'start' }}>
         <div className="projectContentContainer">
           <a 
             href="https://github.com/benbaessler/bridge-whale-bot"
@@ -86,7 +129,6 @@ export default function Work() {
           </p>
           <p>
             I planned out the architecture of the contract and wrote it using <b>Solidity</b> and <b>Hardhat</b>. Using <b>Chai</b>, I wrote extensive tests. Performed a manual audit on the contract using tools like <b>Slither</b> and <b>Mythril</b>.
-
           </p>
           <p style={{ margin: 0 }}>
             The smart contract is designed for deployment to the <b>Polygon</b> Mainnet.
@@ -114,7 +156,6 @@ export default function Work() {
             I built the front-end application using <b>React</b>, <b>TypeScript</b> and <b>Ethers</b>. For styling I used <b>Bootstrap</b> and <b>CSS</b>.
           </p>
         </div>
-        <ShowcaseSlider images={[LendFiSC1, LendFiSC2, LendFiSC3, LendFiSC4]}/>
       </div>
       
     </div>

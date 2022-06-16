@@ -11,6 +11,55 @@
   opacity: 1;
 }
 
+.showcaseListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expContainer {
+  position: relative;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 5px;
+  padding: 50px;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+#projTitle {
+  margin-bottom: 10px;
+}
+
+#showcaseTitle {
+  font-size: 17px;
+  color: #00ddff;
+  margin-bottom: 15px;
+}
+
+.projLinkContainer {
+  position: absolute;
+  display: flex;
+  top: 50px;
+  right: 50px;
+}
+
+#githubIcon {
+  margin-right: 20px;
+  height: 33px;
+}
+
+.projLinkContainer img {
+  cursor: pointer;
+  opacity: .7;
+  height: 30px;
+  transition: .2s;
+}
+
+.projLinkContainer img:hover {
+  opacity: 1;
+}
+
 .projectTitleContainer h3 {
   margin: 0;
 }
@@ -21,9 +70,11 @@
   margin-right: 15px;
 }
 
-.experienceContainer {
-  margin-bottom: 14vh;
-  width: 70%;
+.buttonRowc-1 {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 .projectContainer {
@@ -36,6 +87,10 @@
 .projectContentContainer {
   width: 50%;
   padding-right: 6vw;
+}
+
+.desc {
+  margin-left: 10px;
 }
 
 .showcaseSliderContainer {
@@ -55,9 +110,13 @@
 }
 
 .experienceTitleContainer span {
-  font-size: 17px;
+  opacity: .8;
+  font-weight: 500;
+}
+
+p.jobsum {
+  color: white;
   opacity: .7;
-  margin-left: 10px;
 }
 
 .experienceTitleContainer h3 {

@@ -13,7 +13,7 @@ export default function About() {
           <p>
             I am a German-American 18-year-old developer based in London, UK. My journey as a software
             developer started back in 2019 when I took an online <span>Python</span> course. Since then, coding has 
-            become my number one passion.
+            become my passion.
           </p>
           <p>
             During COVID-19, I spent my time exploring different developer 'niches' to find something that I wanted to specialize in.
