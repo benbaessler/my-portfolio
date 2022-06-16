@@ -26,8 +26,14 @@
 }
 
 .section {
-  width: 100%;
   display: flex;
+  padding: 100px 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 0;
+  }
 }
 
 h1 {
@@ -47,8 +53,7 @@ h3 {
 
 p {
   color: #a6a6a6;
-  font-size: clamp(17px, 1.4vw, 1.3rem);
-  line-height: clamp(28px, 2.5vw, 1.7rem);
+  font-size: 18px;
 }
 
 b {
@@ -68,6 +73,11 @@ a:hover {
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
   padding: 10px 30px;
   background-color: #6600ff;
   font-size: 18px;
