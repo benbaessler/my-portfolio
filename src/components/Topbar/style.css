@@ -12,10 +12,20 @@
   justify-content: space-between;
 }
 
+.navbarLinks a {
+  margin-left: 2rem !important;
+}
+
+@media (max-width: 768px) {
+  .navbarLinks {
+    display: none;
+  }
+}
+
 #emailContact {
   display: flex;
   align-items: center;
-  font-size: clamp(17px, 5vw, 22px);
+  font-size: 17px;
   opacity: .75;
   transition: .2s;
   cursor: pointer;
@@ -45,20 +55,23 @@
   color: white;
 }
 
-.socialMediaContainer {
+.navbarLinkContainer a {
+  margin-left: 1rem;
+}
+
+.navbarLinkContainer {
   height: 40px;
   display: flex;
   align-items: center;
 }
 
-.socialMediaContainer img {
+.navbarLinkContainer img {
   cursor: pointer;
   transition: .2s;
   opacity: .75;
   height: 40px;
-  margin-left: 1rem;
 }
 
-.socialMediaContainer img:hover {
+.navbarLinkContainer img:hover {
   opacity: 1;
 }

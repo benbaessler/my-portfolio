@@ -27,15 +27,52 @@
   flex-direction: column;
 }
 
-.showcaseContainer img {
+.showcaseContainer p {
+  color: #00ddff;
+}
+
+.aboutImageContainer {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.aboutImageContainer img {
   width: 100%;
   max-width: 300px;
   border-radius: 5px;
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .aboutContentContainer {
     display: block;
   }
+
+  .aboutImageContainer {
+    justify-content: center;
+  }
+}
+
+.skillWrapper {
+  display: flex;
+}
+
+.skillWrapper img {
+  color: white;
+  width: 10px;
+  height: 10px;
+  margin-right: 1rem;
+}
+
+.skillWrapper p {
+  color: white;
+  margin: 0;
+}
+
+ul.skillsList {
+  display: grid;
+  font-size: 19px;
+  grid-template-columns: repeat(2, minmax(50px, 150px));
+  padding-left: 16px;
 }

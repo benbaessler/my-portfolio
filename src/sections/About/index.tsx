@@ -16,15 +16,16 @@ export default function About() {
             become my number one passion.
           </p>
           <p>
-            During COVID-19, I spent my time exploring different developer 'niches' in order to find something that I wanted to specialize in.
+            During COVID-19, I spent my time exploring different developer 'niches' to find something that I wanted to specialize in.
             I started teaching myself various programming languages including <span>Flutter (Dart)</span>, <span>HTML & CSS</span>, <span>Swift</span> and <span>JavaScript</span>.
           </p>
           <p>
-            When I learned about blockchain in early 2021, it was clear to me that this is what I want to work on. 
-            I started actively participating in the <span>crypto</span> / <span>web 3</span> community and learning about the space.
+            When I learned about blockchain in early 2021, I was immediately intrigued by the potential of this technology. It was clear to me that this is what I want to work on. 
+            I started actively participating in the community and learning about the <span>crypto</span> & <span>web3</span> space. 
           </p>
           <p>
-            In August 2021, after teaching myself <span>Solidity</span> and <span>React</span> in order to build <span>dApps</span> / <span>smart contracts</span>, I landed my very first job as a part-time blockchain developer for a web 3 start-up.
+            In August 2021, after teaching myself <span>Solidity</span> and <span>React</span> to build <span>dApps</span> / <span>smart contracts</span>, I landed my very first job as a part-time blockchain developer for a web 3 start-up.
+            I now spend my time building personal projects to further evolve my skills and knowledge.
           </p>
           <p>
             <b>I am currently open for work as a developer.</b>
@@ -32,9 +33,18 @@ export default function About() {
         </div>
 
         <div className="showcaseContainer">
-          <img src={MyImage}/>
-          <div className="skillsContainer">~
+          <div className="aboutImageContainer">
+            <img src={MyImage}/>
           </div>
+          <p>My skills include:</p>
+          <ul className="skillsList">
+            <li>Solidity</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+          </ul>
         </div>
         
       </div>

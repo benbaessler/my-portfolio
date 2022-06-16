@@ -8,7 +8,7 @@ import Soon from './sections/Soon'
 
 function App() {
 
-  return <div className="App">
+  return <div className="main">
     <Topbar/>
     <Home/>
     <About/>
