@@ -1,0 +1,9 @@
+.contactSection {
+  align-items: center;
+}
+
+.contactSection p {
+  text-align: center;
+  width: 60%;
+  margin-bottom: 50px;
+}
