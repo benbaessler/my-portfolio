@@ -19,7 +19,7 @@ const JobNevam = () => {
     <p>
       
     </p>
-    <ul className="desc">
+    <ul>
       <li><p>
         My responsibilies included working with a team of developers and designers to build a blockchain-based social media web app
         using React, TypeScript, Bootstrap and Ethers.

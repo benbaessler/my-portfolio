@@ -31,6 +31,62 @@
   margin-bottom: 20px;
 }
 
+.projLinkContainer {
+  position: absolute;
+  display: flex;
+  top: 50px;
+  right: 50px;
+}
+
+@media (max-width: 1080px) {
+  .expContainer {
+    padding: 40px
+  }
+
+  .projLinkContainer {
+    top: 40px;
+    right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .expContainer {
+    padding: 30px
+  }
+
+  .projLinkContainer {
+    top: 30px;
+    right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .expContainer {
+    padding: 60px 20px 20px 20px;
+  }
+
+  #showcaseTitle {
+    display: none;
+  }
+  
+  .projLinkContainer {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .projLinkContainer img {
+    height: 25px !important;
+    width: 25px !important;
+  }
+
+  #githubIcon {
+    height: 28px !important;
+    width: 28px !important;
+  }
+}
+
 .showcaseListContainer {
   display: flex;
   flex-direction: column; 
@@ -44,13 +100,6 @@
   font-size: 17px;
   color: #00ddff;
   margin-bottom: 15px;
-}
-
-.projLinkContainer {
-  position: absolute;
-  display: flex;
-  top: 50px;
-  right: 50px;
 }
 
 #githubIcon {
@@ -96,10 +145,6 @@
 .projectContentContainer {
   width: 50%;
   padding-right: 6vw;
-}
-
-.desc {
-  margin-left: 10px;
 }
 
 .showcaseSliderContainer {
