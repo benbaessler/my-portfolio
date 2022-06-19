@@ -34,7 +34,7 @@ export default function About() {
 
         <div className="showcaseContainer">
           <div className="aboutImageContainer">
-            <img src={MyImage}/>
+            <img src={MyImage} alt="Ben Baessler portrait"/>
           </div>
           <div>
             <p>My main technical skills are:</p>

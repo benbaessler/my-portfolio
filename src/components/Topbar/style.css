@@ -16,6 +16,15 @@
   margin-left: 2rem !important;
 }
 
+.logoContainer {
+  height: 25px;
+}
+
+.logoContainer img {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 768px) {
   .navbarLinks {
     display: none;

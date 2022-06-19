@@ -18,6 +18,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "typeRoots": ["./src/decs"],
     "jsx": "react-jsx"
   },
   "include": [

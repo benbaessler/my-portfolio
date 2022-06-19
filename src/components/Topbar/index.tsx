@@ -1,6 +1,6 @@
 import './style.css'
 
-import { CgArrowBottomLeft } from 'react-icons/cg'
+import Logo from '../../assets/logo.png'
 import twitterIcon from '../../assets/icons/media/twitter.png'
 import linkedInIcon from '../../assets/icons/media/linkedIn.png'
 import gitHubIcon from '../../assets/icons/media/github.png'
@@ -9,15 +9,8 @@ export default function Topbar() {
 
   return (
     <div className="topBar">
-      <div className="contactContainer">
-        {/* <a href="mailto:hello@benbaessler.com">
-          <div id="emailContact">
-            Contact me
-            <div id="emailIconContainer">
-            <CgArrowBottomLeft size="25px"/>
-            </div>
-          </div>
-        </a> */}
+      <div className="logoContainer">
+        <img src={Logo}/>
       </div>
       <div className="navbarLinkContainer">
         <div className="navbarLinks">

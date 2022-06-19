@@ -5,7 +5,7 @@ import Home from './sections/Home'
 import About from './sections/About'
 import Work from './sections/Work'
 import Contact from './sections/Contact'
-import Footer from './sections/Footer';
+import Footer from './components/Footer';
 
 function App() {
 
