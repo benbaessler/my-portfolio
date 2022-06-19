@@ -8,6 +8,6 @@ export default function Contact() {
       if you are in need of a developer, or even if you just want to say hello. I will 
       try to get back to you as soon as I can!
     </p>
-    <div className="button">Get in touch</div>
+    <a href="mailto:hello@benbaessler.com"><div className="button">Get in touch</div></a>
   </div>
 }
