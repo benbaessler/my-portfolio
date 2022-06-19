@@ -1,7 +1,4 @@
 import './style.css'
-
-import { useEffect, useState } from 'react'
-
 import GitHubIcon from '../../assets/icons/media/github.png'
 import LinkIcon from '../../assets/icons/link.png'
 
@@ -41,12 +38,6 @@ const ProjBadger = () => {
     <p>
       A bot for monitoring a Twitter account (@RenAssetsBot) and sharing incoming tweets to a Discord channel based on keywords.
     </p>  
-    {/* <p>
-      After applying for the bounty, I planned and created the bot in Python. I worked with the Discord API and Twitter SDK (Tweepy).
-    </p>  
-    <p>
-    Once the bot was finalized, I packaged the app in a Docker Container, submitted the project on Gitcoin and received a payout.
-    </p> */}
     <ul>
       <li><p>
         Planned and built the bot using Python, Discord API and Twitter API (Tweepy).
@@ -83,12 +74,6 @@ const ProjNevam = () => {
     <p>
       ERC-1155 NFT smart contract for Nevam's upcoming collection on Polygon Mainnet.
     </p>  
-    {/* <p>
-    I planned out the architecture of the contract and wrote it using Solidity and Hardhat. Using Chai, I wrote extensive tests. Performed a manual audit on the contract using tools like Slither and Mythril.
-    </p>  
-    <p>
-      The smart contract is designed for deployment to the Polygon Mainnet.
-    </p> */}
     <ul>
       <li><p>
         Planned and wrote the smart contract using Solidity, Hardhat and OpenZeppelin.
