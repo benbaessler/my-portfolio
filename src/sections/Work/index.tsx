@@ -16,20 +16,17 @@ const JobNevam = () => {
       A part-time, remote position for a web3 start-up building a social media platform for NFT artists
       to express themselves via their own created metaverses.
     </p>
-    <p>
-      
-    </p>
     <ul>
       <li><p>
         My responsibilies included working with a team of developers and designers to build a blockchain-based social media web app
         using React, TypeScript, Bootstrap and Ethers.
       </p></li>
       <li><p>
-        Planning and writing the smart contract for an ERC-1155 NFT collection on Polygon
+        Planning, writing, and testing the smart contract for an ERC-1155 NFT collection on Polygon
         using Solidity, Chai, OpenZeppelin and Hardhat.
       </p></li>
       <li><p>
-        I learned how to work in an agile environment and use tools like Confluence, Jira and Bitbucket.
+        Learned how to work in an agile environment and use tools like Confluence, Jira and Bitbucket.
       </p></li>
     </ul>
   </div>
@@ -42,14 +39,25 @@ const ProjBadger = () => {
       <h3 id="projTitle">Gitcoin Bounty: Bridge Whale Bot</h3>
     </div>
     <p>
-      This is a bot for monitoring a Twitter account (@RenAssetsBot), filtering new tweets for keywords and posting them to Discord using Webhooks.
+      A bot for monitoring a Twitter account (@RenAssetsBot) and sharing incoming tweets to a Discord channel based on keywords.
     </p>  
-    <p>
+    {/* <p>
       After applying for the bounty, I planned and created the bot in Python. I worked with the Discord API and Twitter SDK (Tweepy).
     </p>  
     <p>
     Once the bot was finalized, I packaged the app in a Docker Container, submitted the project on Gitcoin and received a payout.
-    </p>
+    </p> */}
+    <ul>
+      <li><p>
+        Planned and built the bot using Python, Discord API and Twitter API (Tweepy).
+      </p></li>
+      <li><p>
+        Packaged the finished project in a Docker container.
+      </p></li>
+      <li><p>
+        Submitted the project to Gitcoin and received a payout of 20 BADGER tokens at a value of about $500.
+      </p></li>
+    </ul>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/bridge-whale-bot"
@@ -57,7 +65,7 @@ const ProjBadger = () => {
         rel="noopener noreferrer"
       ><img src={GitHubIcon} id="githubIcon"/></a>
       <a
-        href="https://gitcoin.co/iss~ue/Badger-Finance/gitcoin/18/100026127"
+        href="https://gitcoin.co/issue/Badger-Finance/gitcoin/18/100026127"
         target="_blank"
         rel="noopener noreferrer"
       ><img src={LinkIcon}/></a>
@@ -73,14 +81,25 @@ const ProjNevam = () => {
       <h3 id="projTitle">Nevam's NFT collection</h3>
     </div>
     <p>
-      This is the Solidity smart contract for Nevam's upcoming NFT collection.
+      ERC-1155 NFT smart contract for Nevam's upcoming collection on Polygon Mainnet.
     </p>  
-    <p>
+    {/* <p>
     I planned out the architecture of the contract and wrote it using Solidity and Hardhat. Using Chai, I wrote extensive tests. Performed a manual audit on the contract using tools like Slither and Mythril.
     </p>  
     <p>
       The smart contract is designed for deployment to the Polygon Mainnet.
-    </p>
+    </p> */}
+    <ul>
+      <li><p>
+        Planned and wrote the smart contract using Solidity, Hardhat and OpenZeppelin.
+      </p></li>
+      <li><p>
+        Extensively tested the contract by deploying it to Mumbai testnet as well as writing unit tests with Chai.
+      </p></li>
+      <li><p>
+        Integrated a whitelist for minting in a pre-sale period using Merkle tree.
+      </p></li>
+    </ul>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/nevam-nfts"
@@ -99,14 +118,18 @@ const ProjLendFi = () => {
     </div>
     <p>
       A platform for lending and borrowing ETH for NFT collateral (ERC-721).
-      I planned out the development and architecture of the application.
     </p>
-    <p>
-      I wrote the smart contracts using <b>Solidity</b> and <b>Hardhat</b>. The contracts are extensively tested using <b>Chai</b> unit tests.
-    </p>
-    <p style={{ margin: 0 }}>
-      I built the front-end application using <b>React</b>, <b>TypeScript</b> and <b>Ethers</b>. For styling I used <b>Bootstrap</b> and <b>CSS</b>.
-    </p>
+    <ul>
+      <li><p>
+        Planned out the development and architecture of the application and designed the user interface using Figma.
+      </p></li>
+      <li><p>
+        Wrote, tested and deployed the smart contract to Rinkeby testnet using Solidity, Hardhat and Chai.
+      </p></li>
+      <li><p>
+        Built the front-end application with React, TypeScript and Ethers.
+      </p></li>
+    </ul>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/lendfi-interface"
