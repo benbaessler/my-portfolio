@@ -123,7 +123,7 @@ const ProjLendFi = () => {
         rel="noopener noreferrer"
       ><img src={GitHubIcon} id="githubIcon"/></a>
       <a
-        href="https://gitcoin.co/iss~ue/Badger-Finance/gitcoin/18/100026127"
+        href="https://lendfi.herokuapp.com"
         target="_blank"
         rel="noopener noreferrer"
       ><img src={LinkIcon}/></a>
