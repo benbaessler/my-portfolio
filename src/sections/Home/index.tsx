@@ -1,6 +1,6 @@
 import './style.css'
 
-import myImage from '../../assets/images/me.png'
+import Resume from '../../assets/resume.pdf'
 
 export default function Home() {
 
@@ -12,9 +12,12 @@ export default function Home() {
         Software engineer specialized in building secure decentralized applications.
         Working on shaping the next generation of the web.
       </p>
-      <div className="button">
+      <a href={Resume}
+        target="_blank"
+        rel="noopener noreferrer"
+      ><div className="button">
         View my resume
-      </div>
+      </div></a>
     </div>
   </div>
 }
