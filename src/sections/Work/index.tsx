@@ -23,7 +23,8 @@ const JobNevam = () => {
         using Solidity, Chai, OpenZeppelin and Hardhat.
       </p></li>
       <li><p>
-        Learned how to work in an agile environment and use tools like Confluence, Jira and Bitbucket.
+        Learned how to work in an agile team environment, use tools like Confluence, Jira and
+        Bitbucket, able to work autonomously.
       </p></li>
     </ul>
   </div>
