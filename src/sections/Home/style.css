@@ -20,7 +20,7 @@
 }
 
 #jobTitle {
-  font-size: clamp(27px, 6vw, 65px) !important;
+  font-size: clamp(30px, 6vw, 65px) !important;
   color: #00ddff;
   margin-bottom: 30px;
 }
