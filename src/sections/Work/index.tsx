@@ -15,16 +15,13 @@ const JobNevam = () => {
     </p>
     <ul>
       <li><p>
-        My responsibilies included working with a team of developers and designers to build a blockchain-based social media web app
-        using React, TypeScript, Bootstrap and Ethers.
+        Planned and created an NFT smart contract using Solidity, Hardhat and OpenZeppelin, wrote extensive tests with Chai, and audited the contract using Mythril.
       </p></li>
       <li><p>
-        Planning, writing, and testing the smart contract for an ERC-1155 NFT collection on Polygon
-        using Solidity, Chai, OpenZeppelin and Hardhat.
+        Built a decentralized social media web app using React, CSS, Bootstrap, and web3.js / Ethers for integrating Ethereum.
       </p></li>
       <li><p>
-        Learned how to work in an agile team environment, use tools like Confluence, Jira and
-        Bitbucket, able to work autonomously.
+        Learned how to work in an agile team environment, use tools like Confluence, Jira and Bitbucket, able to work autonomously.
       </p></li>
     </ul>
   </div>
