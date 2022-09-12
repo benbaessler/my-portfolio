@@ -128,6 +128,36 @@ const ProjLendFi = () => {
   </div>  
 }
 
+const ProjSubscription = () => {
+  return <div className="expContainer">
+    <h3 id="showcaseTitle">Project Showcase</h3>
+    <div className="experienceTitleContainer">
+      <h3 id="projTitle">Solidity Subscription</h3>
+    </div>
+    <p>
+    A Solidity smart contract that can manage periodical subscriptions paid with crypto on-chain.
+    </p>  
+    <ul>
+      <li><p>
+        Planned and built the smart contract using Solidity, Hardhat and OpenZeppelin.
+      </p></li>
+      <li><p>
+        Extensively tested the contract by deploying it with Chai unit tests.
+      </p></li>
+      <li><p>
+        Fully documented the contract with NatSpec.
+      </p></li>
+    </ul>
+    <div className="projLinkContainer">
+      <a
+        href="https://github.com/benbaessler/solidity-subscription"
+        target="_blank"
+        rel="noopener noreferrer"
+      ><img src={GitHubIcon} id="githubIcon" style={{ margin: 0 }}/></a>
+    </div>
+  </div>  
+}
+
 export default function Work() {
   return <div className="section" style={{ width: 'auto' }}>
     <div className="workContainer">
@@ -137,6 +167,7 @@ export default function Work() {
         <ProjLendFi/>
         <ProjNevam/>
         <ProjBadger/>
+        <ProjSubscription/>
       </div>
     </div>
   </div>

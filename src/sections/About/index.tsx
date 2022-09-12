@@ -37,7 +37,7 @@ export default function About() {
             <img src={MyImage} alt="Ben Baessler portrait"/>
           </div>
           <div>
-            <p>My main technical skills are:</p>
+            <p>My technical skills include:</p>
             <ul className="skillsList">
               <li>Solidity</li>
               <li>JavaScript</li>
