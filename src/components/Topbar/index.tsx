@@ -19,7 +19,7 @@ export default function Topbar() {
           <a href="">Contact</a>
         </div>
         <div style={{ marginLeft: '2rem' }}>
-          <a href="https://twitter.com/benbaessler_" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/curlesbb" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon}/>
           </a>
           <a href="https://github.com/benbaessler" target="_blank" rel="noopener noreferrer">
