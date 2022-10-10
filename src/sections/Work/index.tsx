@@ -24,6 +24,7 @@ const JobNevam = () => {
         Learned how to work in an agile team environment, use tools like Confluence, Jira and Bitbucket, able to work autonomously.
       </p></li>
     </ul>
+    <p><b>Technologies used:</b> Solidity, TypeScript, JavaScript, Hardhat, Ethereum, Polygon, OpenZeppelin, Chai, Ethers, Mythril, React, CSS, Figma, Bootstrap, web3.js, Confluence, Jira, Bitbucket, Git, Agile</p>
   </div>
 }
 
@@ -47,6 +48,7 @@ const ProjBadger = () => {
         Submitted the project to Gitcoin and received a payout of 20 BADGER tokens at a value of about $500.
       </p></li>
     </ul>
+    <p><b>Technologies used:</b> Python, Discord, discord.py, Tweepy, Twitter API, Docker, Ethereum</p>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/bridge-whale-bot"
@@ -83,6 +85,7 @@ const ProjNevam = () => {
         Integrated a whitelist for minting in a pre-sale period using Merkle tree.
       </p></li>
     </ul>
+    <p><b>Technologies used:</b> Solidity, TypeScript, JavaScript, Hardhat, Ethereum, Polygon, OpenZeppelin, Chai, Ethers, Mythril</p>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/nevam-nfts"
@@ -113,6 +116,7 @@ const ProjLendFi = () => {
         Built the front-end application with React, TypeScript and Ethers.
       </p></li>
     </ul>
+    <p><b>Technologies used:</b> Solidity, TypeScript, React, CSS, JavaScript, Hardhat, Ethereum, Rinkeby, OpenZeppelin, Chai, Ethers, Slither, Figma</p>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/lendfi-interface"
@@ -148,6 +152,7 @@ const ProjSubscription = () => {
         Fully documented the contract with NatSpec.
       </p></li>
     </ul>
+    <p><b>Technologies used:</b> Solidity, JavaScript, Chai, Hardhat, Ethereum, OpenZeppelin, Chai, Ethers</p>
     <div className="projLinkContainer">
       <a
         href="https://github.com/benbaessler/solidity-subscription"
