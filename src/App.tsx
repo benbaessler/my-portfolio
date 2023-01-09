@@ -37,7 +37,7 @@ function App() {
             <a onClick={() => scrollTo(contactRef)}>Contact</a>
           </div>
           <div style={{ marginLeft: '2rem' }}>
-            <a href="https://twitter.com/ohCurles" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/mrbaessler" target="_blank" rel="noopener noreferrer">
               <img src={twitterIcon}/>
             </a>
             <a href="https://github.com/benbaessler" target="_blank" rel="noopener noreferrer">

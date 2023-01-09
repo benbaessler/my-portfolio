@@ -19,6 +19,11 @@
   margin-bottom: 50px;
 }
 
+/* disabled button */
+.introContainer a:hover {
+  background-color: #6600ff;
+}
+
 #jobTitle {
   font-size: clamp(30px, 6vw, 65px) !important;
   color: #00ddff;

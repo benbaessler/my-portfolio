@@ -64,6 +64,7 @@ b {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: rgba(256, 256, 256, .8);
   transition: .2s;
