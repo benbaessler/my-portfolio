@@ -22,7 +22,7 @@ const JobMorpho = () => {
           </span>
         </h3>
       </div>
-      <p id="jobDetails">January 2023 - now</p>
+      <p id="jobDetails">October 2022 - February 2023</p>
       <p className="jobsum">
         A full-time job as a Software Engineer for a decentralized lending
         platform on Ethereum working on building the future of finance.
@@ -30,20 +30,20 @@ const JobMorpho = () => {
       <ul>
         <li>
           <p>
-            Implement new features and functionality in a TypeScript-based
+            Implemented new features and functionality in a TypeScript-based
             codebase, utilizing React for frontend development and The Graph for
             querying decentralized data.
           </p>
         </li>
         <li>
           <p>
-            Utilize Tenderly and other tools to monitor and debug smart
+            Utilized Tenderly and other tools to monitor and debug smart
             contracts deployed on Ethereum.
           </p>
         </li>
         <li>
           <p>
-            Participate in agile development processes, including daily
+            Participated in agile development processes, including daily
             stand-ups, sprint planning, and code reviews, using tools such as
             Jira, Notion and GitHub.
           </p>
@@ -315,9 +315,9 @@ export default function Work() {
           <JobMorpho />
           <JobNevam />
           <ProjLendFi />
-          <ProjNevam />
-          <ProjBadger />
-          <ProjSubscription />
+          {/* <ProjNevam /> */}
+          {/* <ProjBadger /> */}
+          {/* <ProjSubscription /> */}
         </div>
       </div>
     </div>
