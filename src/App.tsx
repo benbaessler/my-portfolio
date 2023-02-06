@@ -67,7 +67,7 @@ function App() {
                 <img src={telegramIcon} />
               </a>
               <a
-                href="https://etherscan.io/address/curles.eth"
+                href="https://etherscan.io/address/benbaessler.eth"
                 target="_blank"
                 rel="noopener noreferrer"
               >
