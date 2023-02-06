@@ -13,19 +13,12 @@ export default function Home() {
           open-source Web3 ecosystem and working on projects that push the
           boundaries of decentralized technology.
         </p>
-        {/* <a href={Resume}
-        target="_blank"
-        rel="noopener noreferrer"
-      ><div className="button">
-        View my resume
-      </div></a> */}
         <a
-          // href={Resume}
+          href="https://t.me/benbaessler"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ opacity: 0.3 }}
         >
-          <div className="button">View my resume</div>
+          <div className="button">Get in touch</div>
         </a>
       </div>
     </div>
