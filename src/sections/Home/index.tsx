@@ -7,10 +7,11 @@ export default function Home() {
     <div className="section introSection">
       <div className="introContainer">
         <h1>Hey, I'm Ben.</h1>
-        <h1 id="jobTitle">I build things on the blockchain.</h1>
+        <h1 id="jobTitle">I build secure, decentralized applications.</h1>
         <p>
-          Software engineer specialized in building secure decentralized
-          applications. Working on shaping the next generation of the web.
+          A software engineer with a passion for contributing to the
+          open-source Web3 ecosystem and working on projects that push the
+          boundaries of decentralized technology.
         </p>
         {/* <a href={Resume}
         target="_blank"
