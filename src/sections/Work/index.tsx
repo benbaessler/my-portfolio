@@ -249,13 +249,6 @@ const ProjLendFi = () => {
         >
           <img src={GitHubIcon} id="githubIcon" />
         </a>
-        <a
-          href="https://lendfi.herokuapp.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={LinkIcon} />
-        </a>
       </div>
     </div>
   );
