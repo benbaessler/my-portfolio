@@ -50,7 +50,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={gitHubIcon}/>
+                <img src={gitHubIcon} />
               </a>
               <a
                 href="https://linkedin.com/in/benbaessler/"
