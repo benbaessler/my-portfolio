@@ -108,106 +108,6 @@ const JobNevam = () => {
   );
 };
 
-const ProjBadger = () => {
-  return (
-    <div className="expContainer">
-      <h3 id="showcaseTitle">Project Showcase</h3>
-      <div className="experienceTitleContainer">
-        <h3 id="projTitle">Gitcoin Bounty: Bridge Whale Bot</h3>
-      </div>
-      <p>
-        A bot for monitoring a Twitter account (@RenAssetsBot) and sharing
-        incoming tweets to a Discord channel based on keywords.
-      </p>
-      <ul>
-        <li>
-          <p>
-            Planned and built the bot using Python, Discord API and Twitter API
-            (Tweepy).
-          </p>
-        </li>
-        <li>
-          <p>Packaged the finished project in a Docker container.</p>
-        </li>
-        <li>
-          <p>
-            Submitted the project to Gitcoin and received a payout of 20 BADGER
-            tokens at a value of about $500.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <b>Technologies used:</b> Python, Discord, discord.py, Tweepy, Twitter
-        API, Docker, Ethereum
-      </p>
-      <div className="projLinkContainer">
-        <a
-          href="https://github.com/benbaessler/bridge-whale-bot"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={GitHubIcon} id="githubIcon" />
-        </a>
-        <a
-          href="https://gitcoin.co/issue/Badger-Finance/gitcoin/18/100026127"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={LinkIcon} />
-        </a>
-      </div>
-    </div>
-  );
-};
-
-const ProjNevam = () => {
-  return (
-    <div className="expContainer">
-      <h3 id="showcaseTitle">Project Showcase</h3>
-      <div className="experienceTitleContainer">
-        <h3 id="projTitle">Nevam's NFT collection</h3>
-      </div>
-      <p>
-        ERC-1155 NFT smart contract for Nevam's upcoming collection on Polygon
-        Mainnet.
-      </p>
-      <ul>
-        <li>
-          <p>
-            Planned and wrote the smart contract using Solidity, Hardhat and
-            OpenZeppelin.
-          </p>
-        </li>
-        <li>
-          <p>
-            Extensively tested the contract by deploying it to Mumbai testnet as
-            well as writing unit tests with Chai.
-          </p>
-        </li>
-        <li>
-          <p>
-            Integrated a whitelist for minting in a pre-sale period using Merkle
-            tree.
-          </p>
-        </li>
-      </ul>
-      <p>
-        <b>Technologies used:</b> Solidity, TypeScript, JavaScript, Hardhat,
-        Ethereum, Polygon, OpenZeppelin, Chai, Ethers, Mythril
-      </p>
-      <div className="projLinkContainer">
-        <a
-          href="https://github.com/benbaessler/nevam-nfts"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={GitHubIcon} id="githubIcon" style={{ margin: 0 }} />
-        </a>
-      </div>
-    </div>
-  );
-};
-
 const ProjLendFi = () => {
   return (
     <div className="expContainer">
@@ -254,50 +154,6 @@ const ProjLendFi = () => {
   );
 };
 
-const ProjSubscription = () => {
-  return (
-    <div className="expContainer">
-      <h3 id="showcaseTitle">Project Showcase</h3>
-      <div className="experienceTitleContainer">
-        <h3 id="projTitle">Solidity Subscription</h3>
-      </div>
-      <p>
-        A Solidity smart contract that can manage periodical subscriptions paid
-        with crypto on-chain.
-      </p>
-      <ul>
-        <li>
-          <p>
-            Planned and built the smart contract using Solidity, Hardhat and
-            OpenZeppelin.
-          </p>
-        </li>
-        <li>
-          <p>
-            Extensively tested the contract by deploying it with Chai unit
-            tests.
-          </p>
-        </li>
-        <li>
-          <p>Fully documented the contract with NatSpec.</p>
-        </li>
-      </ul>
-      <p>
-        <b>Technologies used:</b> Solidity, JavaScript, Chai, Hardhat, Ethereum,
-        OpenZeppelin, Chai, Ethers
-      </p>
-      <div className="projLinkContainer">
-        <a
-          href="https://github.com/benbaessler/solidity-subscription"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={GitHubIcon} id="githubIcon" style={{ margin: 0 }} />
-        </a>
-      </div>
-    </div>
-  );
-};
 
 export default function Work() {
   return (
@@ -308,9 +164,6 @@ export default function Work() {
           <JobMorpho />
           <JobNevam />
           <ProjLendFi />
-          {/* <ProjNevam /> */}
-          {/* <ProjBadger /> */}
-          {/* <ProjSubscription /> */}
         </div>
       </div>
     </div>
