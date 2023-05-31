@@ -5,4 +5,14 @@
 body {
   color: white;
   background-color: #1D1C27; 
+  font-family: "Inter", sans-serif;
+}
+
+.page-container {
+  padding: 5rem 6rem;
+  min-height: 100vh;
+}
+
+.landing-image {
+  width: 25vw;
 }
