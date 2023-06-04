@@ -7,7 +7,7 @@ import ProfilePicture from "@/assets/pp.png";
 const LandingPage = () => {
   return (
     <div className="page-container flex align-center justify-center">
-      <div className="flex flex-wrap justify-center items-center">
+      <div className="flex flex-wrap justify-center items-center mt-6">
         <div className="flex flex-col px-10 py-5 md:w-1/2 items-center text-center md:items-start md:text-start">
           <div className="text-5xl md:text-6xl">
             <h1 className="mb-3">{"Hi, I'm"}</h1>
@@ -24,8 +24,9 @@ const LandingPage = () => {
             <Button text="Get in touch" href="mailto:hello@benbaessler.com" />
           </div>
         </div>
+        {/* TODO: increase top margin */}
         <div className="flex flex-col md:w-1/2 justify-center items-center">
-          <div className="w-4/6 max-w-lg min-w-sm">
+          <div className="w-1/2 max-w-lg min-w-sm">
             <Image
               src={ProfilePicture}
               alt="Ben Baessler"
