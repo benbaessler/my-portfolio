@@ -41,7 +41,9 @@ const Navbar: FC = () => {
           />
         </a>
       ))}
-      <Button text="View my GitHub" href="https://github.com/benbaessler" />
+      <div className="hidden md:inline">
+        <Button text="View my GitHub" href="https://github.com/benbaessler" />
+      </div>
     </nav>
   );
 };

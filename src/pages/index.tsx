@@ -22,9 +22,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="hidden md:inline">
-        <Navbar />
-      </div>
+      <Navbar />
       <div ref={landingRef}>
         <LandingPage />
       </div>
