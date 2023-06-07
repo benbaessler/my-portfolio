@@ -21,7 +21,7 @@ h2 {
 
 .button {
   border-radius: 50px;
-  transition-property: background-color, color;
+  transition-property: all;
   transition-duration: 200ms;
   background-color: #4F46E5;
   color: #dbdbdb;
