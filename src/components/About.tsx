@@ -4,7 +4,7 @@ import MeImage from "@/assets/images/me.png";
 const About = () => (
   <div className="page-container flex align-center justify-center">
     <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-xl">
-      <div className="flex flex-col py-5 lg:w-1/2 items-center text-center md:items-start md:text-start">
+      <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
         <h2>About Me</h2>
         <div className="text-lg">
           <p>
@@ -36,8 +36,8 @@ const About = () => (
         </div>
       </div>
       {/* TODO: increase top margin */}
-      <div className="flex flex-col md:w-1/2 justify-center items-center">
-        <div className="w-1/2 min-w-sm">
+      <div className="flex flex-col lg:w-1/2 justify-center items-center">
+        <div className="w-1/2 min-w-sm mt-12">
           <Image
             src={MeImage}
             alt="Ben Baessler"
