@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "@/components/Button";
-import ProfilePicture from "@/assets/pp.png";
+import ProfilePicture from "@/assets/images/pp.png";
 
 const LandingPage = () => (
   <div className="page-container flex align-center justify-center">

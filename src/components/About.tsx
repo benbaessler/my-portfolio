@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Portait from "@/assets/me.png";
+import MeImage from "@/assets/images/me.png";
 
 const About = () => (
   <div className="page-container flex align-center justify-center">
@@ -39,7 +39,7 @@ const About = () => (
       <div className="flex flex-col md:w-1/2 justify-center items-center">
         <div className="w-1/2 min-w-sm">
           <Image
-            src={Portait}
+            src={MeImage}
             alt="Ben Baessler"
             className="rounded-lg w-full"
           />
