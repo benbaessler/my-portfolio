@@ -8,7 +8,7 @@ const Button = ({ text, href }: Props) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="button inline-block px-8 py-4"
+    className="button px-8 py-4"
   >
     {text}
   </a>
