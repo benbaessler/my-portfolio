@@ -4,7 +4,7 @@ import ProfilePicture from "@/assets/pp.png";
 
 const LandingPage = () => (
   <div className="page-container flex align-center justify-center">
-    <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-2xl">
+    <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-xl">
       <div className="flex flex-col py-5 md:w-1/2 items-center text-center md:items-start md:text-start">
         <div className="text-5xl md:text-6xl">
           <h1 className="mb-3">{"Hi, I'm"}</h1>
