@@ -1,53 +1,36 @@
 import Image, { StaticImageData } from "next/image";
 import GitHubIcon from "@/assets/icons/github.png";
-import CallMadeIcon from '@mui/icons-material/CallMade';
+import CallMadeIcon from "@mui/icons-material/CallMade";
 
 interface Props {
   title: string;
   description: string;
-  workDescription: string;
   tags: string[];
-  image: StaticImageData;
   githubLink: string;
   link?: string;
 }
 
-const Project = ({
-  title,
-  description,
-  workDescription,
-  tags,
-  image,
-  githubLink,
-  link,
-}: Props) => (
-  <div className="bg-slate-800 p-10 flex flex-col gap-5 sm:flex-row mb-5">
-    <Image src={image} alt={title} className="w-20 h-20 sm:w-28 sm:h-28" />
-    <div className="flex flex-col ml-5 space-y-4">
-      <div className="flex justify-between">
-        <div className="flex">
-          <h3 className="text-2xl font-semibold mr-3">{title}</h3>
-          {link && (
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="opacity-80 hover:opacity-100"
-            >
-              <CallMadeIcon />
-            </a>
-          )}
-        </div>
+const Project = ({ title, description, tags, githubLink, link }: Props) => (
+  <div className="bg-slate flex flex-col sm:flex-row mb-10 max-w-xl">
+    <div className="flex flex-col space-y-4">
+      <div className="flex">
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          <Image
-            src={GitHubIcon}
-            alt={`${title} GitHub`}
-            className="h-7 w-7 opacity-80 hover:opacity-100"
-          />
+          <h3 className="text-xl font-semibold mr-3 hover:text-slate-200">
+            {title}
+          </h3>
         </a>
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="opacity-80 hover:opacity-100"
+          >
+            <CallMadeIcon />
+          </a>
+        )}
       </div>
-      <p>{description}</p>
-      <p>{workDescription}</p>
+      <p className="text-md">{description}</p>
       <div>
         {tags.map((tag) => (
           <span
