@@ -4,7 +4,7 @@ import Image from "next/image";
 import TwitterIcon from "@/assets/icons/twitter.png";
 import LensIcon from "@/assets/icons/lens.png";
 import LinkedInIcon from "@/assets/icons/linkedin.png";
-import Button from "@/components/Button";
+import GitHubIcon from "@/assets/icons/github.png";
 
 const SOCIAL_ICONS = [
   {
@@ -22,6 +22,11 @@ const SOCIAL_ICONS = [
     image: LinkedInIcon,
     link: "https://linkedin.com/in/benbaessler",
   },
+  {
+    name: "GitHub",
+    image: GitHubIcon,
+    link: "https://github.com/benbaessler",
+  },
 ];
 
 const Navbar: FC = () => {
@@ -37,13 +42,13 @@ const Navbar: FC = () => {
           <Image
             src={icon.image}
             alt={icon.name}
-            className="h-11 w-11 cursor-pointer opacity-90	hover:opacity-100"
+            className="h-10 w-10 cursor-pointer opacity-90	hover:opacity-100"
           />
         </a>
       ))}
-      <div className="hidden md:inline">
+      {/* <div className="hidden md:inline">
         <Button text="View my GitHub" href="https://github.com/benbaessler" />
-      </div>
+      </div> */}
     </nav>
   );
 };
