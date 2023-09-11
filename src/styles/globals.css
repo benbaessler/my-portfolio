@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+* { 
   transition-property: all;
   transition-duration: 200ms;
 }
 
 body {
   color: white;
-  background-color: #1D1C27; 
+  background-color: #1D1C27;
   font-family: "Inter", sans-serif;
 }
 
 h2 {
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 400;
   margin-bottom: 3rem;
 }
 
@@ -47,6 +47,6 @@ h2 {
   }
 
   .page-container {
-    padding: 2rem 3rem;
+    padding: 2rem 4rem;
   }
 }
