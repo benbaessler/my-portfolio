@@ -11,7 +11,7 @@ const LandingPage = () => (
           <h1 className="font-semibold">Ben Baessler</h1>
         </div>
         <h2 className="text-2xl font-medium text-sky-400 my-6">
-          Software Engineer • Researcher
+          Software Engineer
         </h2>
         <p className="text-xl">
           I am a full-stack blockchain developer working on shaping the next
