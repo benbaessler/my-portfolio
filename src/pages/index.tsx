@@ -19,6 +19,13 @@ export default function Home() {
   const handleScroll = () => {
     if (aboutRef.current && window.scrollY < aboutRef.current.offsetTop) {
       aboutRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (
+      projectsRef.current &&
+      aboutRef.current &&
+      window.scrollY >= aboutRef.current.offsetTop &&
+      window.scrollY < projectsRef.current.offsetTop
+    ) {
+      projectsRef.current.scrollIntoView({ behavior: "smooth" });
     } else {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }

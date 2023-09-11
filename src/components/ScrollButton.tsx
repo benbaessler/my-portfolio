@@ -6,9 +6,9 @@ interface Props {
 const ScrollButton = ({ handleScroll }: Props) => (
   <div
     onClick={handleScroll}
-    className="button fixed w-11 h-11 bottom-7 md:inset-x-0 md:mx-auto right-7 md:right-0 transform hover:scale-105 cursor-pointer flex items-center justify-center"
+    className="button fixed w-8 h-8 bottom-7 md:inset-x-0 md:mx-auto right-7 md:right-0 transform cursor-pointer flex items-center justify-center"
   >
-    <ArrowDownwardIcon fontSize="medium" style={{ color: "white" }} />
+    <ArrowDownwardIcon fontSize="small" style={{ color: "white" }} />
   </div>
 );
 
