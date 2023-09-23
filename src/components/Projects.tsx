@@ -46,7 +46,7 @@ const ProjectsPage = () => {
             />
             <p className="text-slate-200 flex pt-2 pb-12">
               <Button
-                text="View all projects on GitHub"
+                text="View all projects"
                 href="https://github.com/benbaessler"
               />
             </p>
