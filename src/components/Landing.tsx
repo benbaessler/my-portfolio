@@ -14,7 +14,7 @@ const LandingPage = () => (
           Software Engineer
         </h2>
         <p className="text-xl">
-          I am a full-stack blockchain developer working on shaping the next
+          A full-stack blockchain developer working on shaping the next
           generation of the web.
         </p>
         <div className="mt-9 text-xl">
