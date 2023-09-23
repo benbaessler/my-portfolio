@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 import ProfilePicture from "@/assets/images/pp.png";
 
 const LandingPage = () => (
-  <div className="page-container flex align-center justify-center">
+  <div className="page-container min-h-screen flex align-center justify-center">
     <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-xl">
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
         <div className="text-5xl md:text-6xl">

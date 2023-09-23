@@ -19,9 +19,10 @@ h2 {
   margin-bottom: 3rem;
 }
 
+
+
 .page-container {
   padding: 5rem 6rem;
-  min-height: 100vh;
 }
 
 .button {
@@ -68,3 +69,14 @@ h2 {
     padding: 2rem 4rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem
+  }
+
+  .page-container {
+    padding: 2rem 2rem;
+  }
+}
+  
