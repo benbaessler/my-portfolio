@@ -31,7 +31,7 @@ const SOCIAL_ICONS = [
 
 const Navbar: FC = () => {
   return (
-    <nav className="fixed top-0 right-0 py-6 px-6 space-x-4 text-xl flex items-center">
+    <nav className="fixed backdrop-blur-md rounded-full top-3 right-3 p-4 space-x-4 text-xl flex items-center">
       {SOCIAL_ICONS.map((icon) => (
         <a
           key={icon.name}
