@@ -23,13 +23,13 @@ const Job = ({ title, companyName, companySite, description, tags }: Props) => (
           </a>
         </h4>
       </div>
-      <span className="text-slate-300">2022 - 2023</span>
+      <span className="subtitle text-slate-300">2022 - 2023</span>
       <p className="text-md">{description}</p>
       <div>
         {tags.map((tag) => (
           <span
             key={tag}
-            className="text-xs text-sky-400 bg-indigo-800 rounded-full px-3 py-2 mr-3"
+            className="text-xs text-slate-300	bg-indigo-800 rounded-full px-3 py-2 mr-3"
           >
             {tag}
           </span>
