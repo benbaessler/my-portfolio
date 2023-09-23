@@ -5,34 +5,36 @@ const About = () => (
   <div className="page-container flex align-center justify-center">
     <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-xl">
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
-        <h2>About Me</h2>
         <div className="text-lg">
           <p>
-            As a German-American software developer based in London, I’ve been
-            honing my skills in coding and blockchain since 2019. I’ve developed
-            proficiency in languages like Python, Flutter, HTML & CSS, Swift,
-            and JavaScript, contributing a unique perspective to projects.
-          </p>
-          <br />
-          <p>
-            In 2021, I shifted focus to blockchain, educating myself about
-            crypto and web3, and learning Solidity and React. By August, I
-            joined a web 3 start-up as a part-time blockchain developer.
+            I am a German-American software engineer based in London. I started
+            teaching myself how to code in 2019 with a clear goal in mind:
+            empowering myself to build my own ideas. I’ve developed proficiency
+            in languages like Python, JavaScript/TypeScript, Flutter, HTML &
+            CSS, and Solidity while exploring various software engineering
+            domains.
           </p>
           <br />
           <p>
             From October 2022 to February 2023, I was a Software Engineer at
-            Morpho Labs, gaining experience building decentralized lending
-            platform software. Now, I’m open to new opportunities where I can
-            apply my passion and skills.
+            Morpho Labs, working with technologies like DeFi, React, and
+            TypeScript while gaining valuable experience working in a fast-paced
+            start-up environment.
           </p>
           <br />
+          <p>
+            In April 2023 I started developing my own open source project on
+            Lens Protocol called Lens Echo. Currently, I am continuing to
+            research and build in the Web3 social industry as I am very passionate about the
+            future of the space.
+          </p>
+          {/* <br />
           <p>
             Aside from software development, I’m driven by entrepreneurship,
             always seeking new challenges and innovations in the web3 space,
             with a keen interest in shaping the future of decentralized
             technology.
-          </p>
+          </p> */}
         </div>
       </div>
       {/* TODO: increase top margin */}
