@@ -44,7 +44,7 @@ export default function Home() {
       <div ref={projectsRef}>
         <Projects />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
