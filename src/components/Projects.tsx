@@ -34,6 +34,21 @@ const ProjectsPage = () => {
               ]}
             />
             <Project
+              title="ShopConnect"
+              description="A browser extension that unlocks personalized deals for you while maintaining data privacy. Built during the ETHOnline 2023 hackathon, made it to the finalists."
+              tags={["JavaScript", "Next.js", "Polygon ID"]}
+              links={[
+                {
+                  title: "Showcase",
+                  href: "https://ethglobal.com/showcase/shopconnect-0qanh",
+                },
+                {
+                  title: "GitHub",
+                  href: "https://github.com/shopconnectorg",
+                }
+              ]}
+            />
+            <Project
               title="LendFi"
               description="A platform for lending and borrowing ETH for NFT collateral (ERC-721)."
               tags={["Solidity", "TypeScript", "React"]}
