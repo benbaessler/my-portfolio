@@ -11,25 +11,25 @@ const ProjectsPage = () => {
           <h2>My Projects</h2>
           <div>
             <Project
-              title="Lens Echo"
-              description="The first Web3 social interface on Discord, built with Lens Protocol. Lens Echo is bridging the gap between Web3 social and Discord, the most widely adopted communication app for online communities."
-              tags={["TypeScript", "Express", "Next.js"]}
+              title="Social Bot"
+              description="All-In-One Discord interface for Web3 Social Protocols. Social Bot is bridging the gap between Web3 social and Discord, the most widely adopted communication app for online communities. Built on Lens Protocol."
+              tags={["Lens Protocol", "Discord", "Next.js", "TypeScript"]}
               links={[
                 {
                   title: "Try it out",
-                  href: "https://lensecho.xyz",
+                  href: "https://socialbot.gg",
                 },
                 {
                   title: "GitHub",
-                  href: "https://github.com/benbaessler/lens-echo",
+                  href: "https://github.com/benbaessler/socialbot",
                 },
                 {
                   title: "Lens",
-                  href: "https://share.lens.xyz/u/lensecho.lens",
+                  href: "https://share.lens.xyz/u/socialbot",
                 },
                 {
                   title: "Twitter",
-                  href: "https://twitter.com/lensechoxyz",
+                  href: "https://twitter.com/socialbotgg",
                 },
               ]}
             />
