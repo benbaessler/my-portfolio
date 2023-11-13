@@ -5,7 +5,7 @@ const About = () => (
   <div className="page-container flex align-center justify-center">
     <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-xl">
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
-        <div className="text-lg">
+        <div className="text-md md:text-lg">
           <p>
             I am a 19-year-old German-American software engineer based in London. I started
             teaching myself how to code in 2019 with a clear goal in mind:
