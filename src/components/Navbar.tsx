@@ -5,6 +5,7 @@ import TwitterIcon from "@/assets/icons/twitter.png";
 import LensIcon from "@/assets/icons/lens.png";
 import LinkedInIcon from "@/assets/icons/linkedin.png";
 import GitHubIcon from "@/assets/icons/github.png";
+import FarcasterIcon from "@/assets/icons/farcaster.png";
 
 const SOCIAL_ICONS = [
   {
@@ -16,6 +17,11 @@ const SOCIAL_ICONS = [
     name: "Lens profile",
     image: LensIcon,
     link: "https://share.lens.xyz/u/benbaessler.lens",
+  },
+  {
+    name: "Farcaster",
+    image: FarcasterIcon,
+    link: "https://warpcast.com/benbaessler",
   },
   {
     name: "LinkedIn",
