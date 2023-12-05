@@ -16,17 +16,17 @@ const SOCIAL_ICONS = [
   {
     name: "Lens profile",
     image: LensIcon,
-    link: "https://share.lens.xyz/u/benbaessler.lens",
+    link: "https://share.lens.xyz/u/benbassler.lens",
   },
   {
     name: "Farcaster",
     image: FarcasterIcon,
-    link: "https://warpcast.com/benbaessler",
+    link: "https://warpcast.com/benbassler",
   },
   {
     name: "LinkedIn",
     image: LinkedInIcon,
-    link: "https://linkedin.com/in/benbaessler",
+    link: "https://linkedin.com/in/benbassler",
   },
   {
     name: "GitHub",

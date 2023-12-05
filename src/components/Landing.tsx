@@ -8,7 +8,7 @@ const LandingPage = () => (
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
         <div className="text-4xl md:text-6xl">
           <h1 className="mb-3">{"Hi, I'm"}</h1>
-          <h1 className="font-semibold">Ben Baessler</h1>
+          <h1 className="font-semibold">Ben Bassler</h1>
         </div>
         <h2 className="text-xl md:text-2xl font-medium text-sky-400 my-6">
           Software Engineer
