@@ -7,7 +7,7 @@ const About = () => (
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
         <div className="text-md md:text-lg">
           <p>
-            I am a 19-year-old German-American software engineer based in London. I started
+            I am a 20-year-old German-American software engineer based in London. I started
             teaching myself how to code in 2019 with a clear goal in mind:
             empowering myself to build my own ideas. I’ve developed proficiency
             in languages like Python, JavaScript/TypeScript, Flutter, HTML &
