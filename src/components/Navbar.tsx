@@ -9,9 +9,9 @@ import FarcasterIcon from "@/assets/icons/farcaster.png";
 
 const SOCIAL_ICONS = [
   {
-    name: "Twitter",
-    image: TwitterIcon,
-    link: "https://twitter.com/mrbaessler",
+    name: "Farcaster",
+    image: FarcasterIcon,
+    link: "https://warpcast.com/benbaessler",
   },
   {
     name: "Lens profile",
@@ -19,9 +19,9 @@ const SOCIAL_ICONS = [
     link: "https://share.lens.xyz/u/benbassler.lens",
   },
   {
-    name: "Farcaster",
-    image: FarcasterIcon,
-    link: "https://warpcast.com/benbassler",
+    name: "Twitter",
+    image: TwitterIcon,
+    link: "https://twitter.com/mrbaessler",
   },
   {
     name: "LinkedIn",
