@@ -11,6 +11,21 @@ const ProjectsPage = () => {
           <h2>My Projects</h2>
           <div>
             <Project
+              title="Envisage"
+              description="A Farcaster Frame for creating a unique, AI-generated art piece and minting it as an NFT on Base with payment in $DEGEN tips. "
+              tags={["Farcaster", "Frames", "frames.js", "TypeScript"]}
+              links={[
+                {
+                  title: "View",
+                  href: "https://warpcast.com/benbaessler/0x07687b14",
+                },
+                {
+                  title: "GitHub",
+                  href: "https://github.com/benbaessler/envisage-nft-frame",
+                }
+              ]}
+            />
+            <Project
               title="Social Bot"
               description="All-In-One Discord interface for Web3 Social Protocols. Social Bot is bridging the gap between Web3 social and Discord, the most widely adopted communication app for online communities. Built on Lens Protocol."
               tags={["Lens Protocol", "Discord", "Next.js", "TypeScript"]}
