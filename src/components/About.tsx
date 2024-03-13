@@ -24,7 +24,7 @@ const About = () => (
           <br />
           <p>
             In April 2023 I started developing my own open source project on
-            Lens Protocol called Lens Echo. Currently, I am continuing to
+            Lens Protocol called Social Bot. Currently, I am continuing to
             research and build in the Web3 social industry as I am very passionate about the
             future of the space.
           </p>
