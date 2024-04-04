@@ -11,7 +11,7 @@ const SOCIAL_ICONS = [
   {
     name: "Farcaster",
     image: FarcasterIcon,
-    link: "https://warpcast.com/benbaessler",
+    link: "https://warpcast.com/benbassler.eth",
   },
   {
     name: "Lens profile",
