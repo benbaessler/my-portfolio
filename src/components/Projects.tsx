@@ -11,6 +11,21 @@ const ProjectsPage = () => {
           <h2>My Projects</h2>
           <div>
             <Project
+              title="Tiser Cast Shares"
+              description="A speculation market for casts with Farcaster Frames + Actions."
+              tags={["Farcaster", "Frames", "Actions", "Frog"]}
+              links={[
+                {
+                  title: "About",
+                  href: "https://tiser.so/about",
+                },
+                {
+                  title: "Farcaster",
+                  href: "https://warpcast.com/~/channel/tiser",
+                }
+              ]}
+            />
+            <Project
               title="Envisage"
               description="A Farcaster Frame for creating a unique, AI-generated art piece and minting it as an NFT on Base with payment in $DEGEN tips. "
               tags={["Farcaster", "Frames", "frames.js", "TypeScript"]}
@@ -63,7 +78,7 @@ const ProjectsPage = () => {
                 }
               ]}
             />
-            <Project
+            {/* <Project
               title="LendFi"
               description="A platform for lending and borrowing ETH for NFT collateral (ERC-721)."
               tags={["Solidity", "TypeScript", "React"]}
@@ -73,7 +88,7 @@ const ProjectsPage = () => {
                   href: "https://github.com/benbaessler/lendfi-interface",
                 },
               ]}
-            />
+            /> */}
             <p className="text-slate-200 flex pt-2 pb-12">
               <Button
                 text="View all projects"
