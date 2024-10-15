@@ -7,12 +7,7 @@ const About = () => (
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
         <div className="text-md md:text-lg">
           <p>
-            I am a 20-year-old German-American software engineer based in London. I started
-            teaching myself how to code in 2019 with a clear goal in mind:
-            empowering myself to build my own ideas. I’ve developed proficiency
-            in languages like Python, JavaScript/TypeScript, Flutter, HTML &
-            CSS, and Solidity while exploring various software engineering
-            domains.
+            I'm a 20-year-old German-American software engineer based in Germany, with a passion for building ideas from the ground up. I began teaching myself to code in 2019, driven by the desire to create and innovate. Over time, I've honed my skills in languages like Python, JavaScript/TypeScript, Flutter, HTML/CSS, and Solidity, while exploring diverse areas of software engineering.
           </p>
           <br />
           <p>
@@ -23,10 +18,11 @@ const About = () => (
           </p>
           <br />
           <p>
-            In April 2023 I started developing my own open source project on
-            Lens Protocol called Social Bot. Currently, I am continuing to
-            research and build in the Web3 social industry as I am very passionate about the
-            future of the space.
+            I'm particularly passionate about onchain social applications and have built various projects on platforms like Lens Protocol and Farcaster.
+          </p>
+          <br />
+          <p>
+            I thrive in both autonomous and collaborative environments and am currently seeking a remote position, ideally as a front-end or full-stack engineer.
           </p>
           {/* <br />
           <p>
