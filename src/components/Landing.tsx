@@ -18,7 +18,7 @@ const LandingPage = () => (
           generation of the web.
         </p>
         <div className="mt-9 text-xl">
-          <Button text="Get in touch" href="https://t.me/benbaessler" />
+          <Button text="View Resume" href="/Ben Bassler CV.pdf" />
         </div>
       </div>
       {/* TODO: increase top margin */}
