@@ -11,17 +11,21 @@ const ProjectsPage = () => {
           <h2>My Projects</h2>
           <div>
             <Project
-              title="Tiser Cast Shares"
-              description="A speculation market for casts with Farcaster Frames + Actions."
+              title="Cast Game"
+              description="A prediction game for viral casts in Farcaster channels."
               tags={["Farcaster", "Frames", "Actions", "Frog"]}
               links={[
                 {
                   title: "About",
-                  href: "https://tiser.so/about",
+                  href: "https://cast.game/about",
                 },
                 {
                   title: "Farcaster",
-                  href: "https://warpcast.com/~/channel/tiser",
+                  href: "https://warpcast.com/~/channel/castgame",
+                },
+                {
+                  title: "GitHub",
+                  href: "https://github.com/orgs/cast-game/repositories",
                 }
               ]}
             />
