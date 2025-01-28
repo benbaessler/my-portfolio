@@ -14,11 +14,6 @@ const SOCIAL_ICONS = [
     link: "https://warpcast.com/benbassler.eth",
   },
   {
-    name: "Lens profile",
-    image: LensIcon,
-    link: "https://share.lens.xyz/u/benbassler.lens",
-  },
-  {
     name: "Twitter",
     image: TwitterIcon,
     link: "https://twitter.com/mrbaessler",
