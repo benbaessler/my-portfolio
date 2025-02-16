@@ -106,9 +106,18 @@ const ProjectsPage = () => {
           <div>
             <Job
               title="Software Engineer"
+              companyName="Ponder"
+              companySite="https://warpcast.com/~/channel/ponder"
+              timePeriod="Since 2025"
+              description="A platform for surveying your favorite communities on Farcaster with polls and social predictions."
+              tags={["Solidity", "Next.js", "TypeScript"]}
+            />
+            <Job
+              title="Software Engineer"
               companyName="Morpho Labs"
+              timePeriod="2022 - 2023"
               companySite="https://morpho.org"
-              description="Morpho is a peer-to-peer layer built on top of lending pools like Compound or Aave. "
+              description="Morpho is a peer-to-peer layer built on top of lending pools like Compound or Aave."
               tags={["DeFi", "TypeScript", "React"]}
             />
           </div>

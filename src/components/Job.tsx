@@ -1,12 +1,13 @@
 interface Props {
   title: string;
   companyName: string;
+  timePeriod: string;
   companySite: string;
   description: string;
   tags: string[];
 }
 
-const Job = ({ title, companyName, companySite, description, tags }: Props) => (
+const Job = ({ title, companyName, timePeriod, companySite, description, tags }: Props) => (
   <div className="bg-slate flex flex-col sm:flex-row mb-10 max-w-xl">
     <div className="flex flex-col space-y-4">
       <div className="flex items-center">
@@ -23,7 +24,7 @@ const Job = ({ title, companyName, companySite, description, tags }: Props) => (
           </a>
         </h4>
       </div>
-      <span className="subtitle text-slate-300">2022 - 2023</span>
+      <span className="subtitle text-slate-300">{timePeriod}</span>
       <p className="text-md">{description}</p>
       <div>
         {tags.map((tag) => (
