@@ -20,17 +20,6 @@ const About = () => (
           <p>
             I am particularly passionate about onchain social applications and have built various projects on platforms like Lens Protocol and Farcaster.
           </p>
-          <br />
-          <p>
-            I thrive in both autonomous and collaborative environments and am currently seeking a remote position, ideally as a front-end or full-stack engineer.
-          </p>
-          {/* <br />
-          <p>
-            Aside from software development, I’m driven by entrepreneurship,
-            always seeking new challenges and innovations in the web3 space,
-            with a keen interest in shaping the future of decentralized
-            technology.
-          </p> */}
         </div>
       </div>
       {/* TODO: increase top margin */}
