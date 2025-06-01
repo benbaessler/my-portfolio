@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 import ProfilePicture from "@/assets/images/pp.png";
 
 const LandingPage = () => (
-  <div className="page-container min-h-screen flex align-center justify-center">
+  <div className="page-container min-h-screen flex align-center justify-center relative">
     <div className="flex flex-wrap justify-center items-center mt-6 max-w-screen-xl">
       <div className="flex flex-col py-5 lg:w-1/2 items-center text-center lg:items-start lg:text-start">
         <div className="text-4xl md:text-6xl">
@@ -18,12 +18,12 @@ const LandingPage = () => (
           generation of the web.
         </p>
         <div className="mt-9 text-xl">
-          <Button text="View Resume" href="/Ben Bassler CV.pdf" />
+          <Button text="Contact me" href="mailto:hello@benbassler.com" />
         </div>
       </div>
       {/* TODO: increase top margin */}
       <div className="flex flex-col lg:w-1/2 justify-end items-center">
-        <div className="w-1/2 min-w-sm mt-12">
+        <div className="w-1/2 min-w-sm">
           <Image
             src={ProfilePicture}
             alt="Ben Baessler"
