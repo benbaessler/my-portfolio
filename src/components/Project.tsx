@@ -12,7 +12,7 @@ interface Link {
 
 const Project = ({ title, description, tags, links }: Props) => (
   <div className="bg-slate flex flex-col sm:flex-row mb-10 max-w-xl">
-    <div className="flex flex-col space-y-4">
+    <div className="flex flex-col space-y-3">
       <div className="flex items-center">
         <h3 className="text-xl font-semibold mr-3 hover:text-slate-200">
           {title}
