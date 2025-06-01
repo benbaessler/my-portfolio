@@ -11,6 +11,21 @@ const ProjectsPage = () => {
           <h2>My Projects</h2>
           <div>
             <Project
+              title="Dash"
+              description="A short-form video platform as a mini app on Farcaster."
+              tags={["Farcaster", "Mini app", "Video", "Next.js"]}
+              links={[
+                {
+                  title: "Farcaster",
+                  href: "https://warpcast.com/~/channel/castgame",
+                },
+                {
+                  title: "GitHub",
+                  href: "https://github.com/orgs/cast-game/repositories",
+                }
+              ]}
+            />
+            <Project
               title="Cast Game"
               description="A prediction game for viral casts in Farcaster channels."
               tags={["Farcaster", "Frames", "Actions", "Frog"]}
@@ -26,21 +41,6 @@ const ProjectsPage = () => {
                 {
                   title: "GitHub",
                   href: "https://github.com/orgs/cast-game/repositories",
-                }
-              ]}
-            />
-            <Project
-              title="Envisage"
-              description="A Farcaster Frame for creating a unique, AI-generated art piece and minting it as an NFT on Base with payment in $DEGEN tips. "
-              tags={["Farcaster", "Frames", "frames.js", "TypeScript"]}
-              links={[
-                {
-                  title: "View",
-                  href: "https://warpcast.com/benbaessler/0x07687b14",
-                },
-                {
-                  title: "GitHub",
-                  href: "https://github.com/benbaessler/envisage-nft-frame",
                 }
               ]}
             />
@@ -82,17 +82,6 @@ const ProjectsPage = () => {
                 }
               ]}
             />
-            {/* <Project
-              title="LendFi"
-              description="A platform for lending and borrowing ETH for NFT collateral (ERC-721)."
-              tags={["Solidity", "TypeScript", "React"]}
-              links={[
-                {
-                  title: "GitHub",
-                  href: "https://github.com/benbaessler/lendfi-interface",
-                },
-              ]}
-            /> */}
             <p className="text-slate-200 flex pt-2 pb-12">
               <Button
                 text="View all projects"
